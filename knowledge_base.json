@@ -1,0 +1,18 @@
+{
+  "intents": {
+    "greeting": {
+      "examples": ["hi", "hello", "good morning"],
+      "responses": ["Hi there!", "Hello! How can I help you today?"]
+    },
+    "weather": {
+      "examples": ["what's the weather like", "is it raining today"],
+      "responses": ["I don't have weather information yet, but I'm learning!"],
+      "related": ["temperature", "rain"]
+    },
+    ...
+  },
+  "entities": {
+    "city": ["New York", "London", "Paris"],
+    "day": ["today", "tomorrow", "weekend"]
+  }
+}
