@@ -65,6 +65,5 @@ def chat_bot():
                 save_knowledge_base('knowledge_base.json', knowledge_base)
                 print('Bot: Thank you! I learned a new response')
 
-if __name__ == '__bot__':
+if __name__ == '__main__':
     chat_bot()
-            
