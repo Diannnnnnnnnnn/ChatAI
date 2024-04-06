@@ -1,18 +1,12 @@
 {
-  "intents": {
-    "greeting": {
-      "examples": ["hi", "hello", "good morning"],
-      "responses": ["Hi there!", "Hello! How can I help you today?"]
+  "questions": [
+    {
+      "keywords": ["hi", "hello"],  # List of triggering keywords
+      "answer": "Hey there!"
     },
-    "weather": {
-      "examples": ["what's the weather like", "is it raining today"],
-      "responses": ["I don't have weather information yet, but I'm learning!"],
-      "related": ["temperature", "rain"]
-    },
-    ...
-  },
-  "entities": {
-    "city": ["New York", "London", "Paris"],
-    "day": ["today", "tomorrow", "weekend"]
-  }
+    {
+      "keywords": ["create", "made", "you"],  # Keywords related to creation
+      "answer": "Dian"
+    }
+  ]
 }
